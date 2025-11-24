@@ -38,7 +38,6 @@ public class Calculadora {
                 opcion = scanner.nextInt();
                 procesarOpcion(opcion);
             } catch (Exception e) {
-                System.out.println(RED + "❌ Error: Enter a valid number" + RESET);
                 scanner.nextLine(); // Clear buffer
             }
             
