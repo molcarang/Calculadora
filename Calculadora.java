@@ -22,17 +22,25 @@ public class Calculadora {
         int opcion = 0;
         
         do {
-            System.out.println("\n" + CYAN + BOLD + "╔════════════════════════════════════╗");
-            System.out.println("║        CALCULATOR - MENU           ║");
-            System.out.println("╚════════════════════════════════════╝" + RESET);
-            System.out.println(GREEN + "1." + RESET + " ➕ Add");
-            System.out.println(GREEN + "2." + RESET + " ➖ Subtract");
-            System.out.println(GREEN + "3." + RESET + " ✖️  Multiply");
-            System.out.println(GREEN + "4." + RESET + " ➗ Divide");
-            System.out.println(GREEN + "5." + RESET + " 🔢 Power");
-            System.out.println(GREEN + "6." + RESET + " √  Square root");
-            System.out.println(RED + "0." + RESET + " 🚪 Exit");
-            System.out.println(CYAN + "────────────────────────────────────" + RESET);
+            System.out.println("\n" + CYAN + BOLD +
+                "╔════════════════════════════════════════════════════╗\n" +
+                "║      " + YELLOW + BOLD + "  ██████╗ █████╗  ██████╗ ██╗   ██╗ " + CYAN + BOLD + "      ║\n" +
+                "║      " + YELLOW + BOLD + " ██╔════╝██╔══██╗██╔═══██╗██║   ██║ " + CYAN + BOLD + "      ║\n" +
+                "║      " + YELLOW + BOLD + " ██║     ███████║██║   ██║██║   ██║ " + CYAN + BOLD + "      ║\n" +
+                "║      " + YELLOW + BOLD + " ██║     ██╔══██║██║   ██║██║   ██║ " + CYAN + BOLD + "      ║\n" +
+                "║      " + YELLOW + BOLD + " ╚██████╗██║  ██║╚██████╔╝╚██████╔╝ " + CYAN + BOLD + "      ║\n" +
+                "║      " + YELLOW + BOLD + "  ╚═════╝╚═╝  ╚═╝ ╚═════╝  ╚═════╝  " + CYAN + BOLD + "      ║\n" +
+                "╠════════════════════════════════════════════════════╣\n" +
+                "║                " + MAGENTA + BOLD + "CALCULATOR MENU" + CYAN + BOLD + "                 ║\n" +
+                "╠════════════════════════════════════════════════════╣\n" +
+                "║  " + GREEN + "1." + RESET + CYAN + BOLD + " ➕  Add                                      ║\n" +
+                "║  " + GREEN + "2." + RESET + CYAN + BOLD + " ➖  Subtract                                 ║\n" +
+                "║  " + GREEN + "3." + RESET + CYAN + BOLD + " ✖️   Multiply                                 ║\n" +
+                "║  " + GREEN + "4." + RESET + CYAN + BOLD + " ➗  Divide                                   ║\n" +
+                "║  " + GREEN + "5." + RESET + CYAN + BOLD + " 🔢  Power                                    ║\n" +
+                "║  " + GREEN + "6." + RESET + CYAN + BOLD + " √   Square root                              ║\n" +
+                "║  " + RED + "0." + RESET + CYAN + BOLD + " 🚪  Exit                                      ║\n" +
+                "╚════════════════════════════════════════════════════╝" + RESET);
             System.out.print(YELLOW + "Select an option: " + RESET);
             
             try {
